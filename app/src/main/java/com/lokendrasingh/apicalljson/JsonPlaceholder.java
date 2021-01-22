@@ -7,5 +7,5 @@ import retrofit2.http.GET;
 
 public interface JsonPlaceholder {
     @GET("posts")
-    Call<List<Post>> getPost();
+    Call<List<Post>> getPosts();
 }
